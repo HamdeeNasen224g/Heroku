@@ -31,5 +31,6 @@ $d1 = date("y-m-d H:i:s");
 <br>
 <iframe src="https://thingspeak.com/channels/1458412/maps/channel_show"></iframe>
 <br>
+<?php $temp1 ?>
         </body>
 </html>
