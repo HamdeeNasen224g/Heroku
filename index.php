@@ -22,18 +22,18 @@ $d1 = date("y-m-d H:i:s");
 
 ?>
     
-<h1>Hamdee Naseng 6211273 <?php echo $name+$hum+$temp; ?></h1>
+<h1>Hamdee Naseng 6211273 <?php echo $name; ?></h1>
 <div class="container">
     <div class="row">
-<iframe class="col-sm-8 embed-responsive-itemr" src="https://thingspeak.com/channels/1458412/charts/1?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&title=Humidity&type=line"></iframe>
+<iframe class="col-sm-7 embed-responsive-itemr" src="https://thingspeak.com/channels/1458412/charts/1?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&title=Humidity&type=line"></iframe>
 </div>
     <br>
     <div class="row">
-<iframe class="col-sm-8 embed-responsive-item" class="col-sm-4" src="https://thingspeak.com/channels/1458412/charts/2?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&title=Temperature&type=line"></iframe>
+<iframe class="col-sm-7 embed-responsive-item" class="col-sm-4" src="https://thingspeak.com/channels/1458412/charts/2?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&title=Temperature&type=line"></iframe>
 </div>
     <br>
     <div class="row">
-<iframe class="row embed-responsive-item" src="https://thingspeak.com/channels/1458412/maps/channel_show"></iframe>
+<iframe class="col-sm-7 embed-responsive-item" src="https://thingspeak.com/channels/1458412/maps/channel_show"></iframe>
 </div>
     <br>
 </div>
