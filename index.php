@@ -26,15 +26,15 @@ $d1 = date("y-m-d H:i:s");
 <h1>Hamdee Naseng 6211273 <?php echo $name; ?></h1>
 <div class="container">
     <div class="col embed-responsive embed-responsive-16by9">
-<iframe class="embed-responsive-itemr" src="https://thingspeak.com/channels/1458412/charts/1?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&title=Humidity&type=line"></iframe>
+<iframe class="row embed-responsive-itemr" src="https://thingspeak.com/channels/1458412/charts/1?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&title=Humidity&type=line"></iframe>
 
     <br>
    
-<iframe class="embed-responsive-item" class="col-sm-4" src="https://thingspeak.com/channels/1458412/charts/2?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&title=Temperature&type=line"></iframe>
+<iframe class="row embed-responsive-item" class="col-sm-4" src="https://thingspeak.com/channels/1458412/charts/2?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&title=Temperature&type=line"></iframe>
 
     <br>
    
-<iframe class="embed-responsive-item" src="https://thingspeak.com/channels/1458412/maps/channel_show"></iframe>
+<iframe class="row embed-responsive-item" src="https://thingspeak.com/channels/1458412/maps/channel_show"></iframe>
 
     <br>
 </div>
