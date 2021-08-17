@@ -15,7 +15,7 @@ $response = file_get_contents("https://api.thingspeak.com/channels/1458412/feeds
 $json = json_decode($response);
 //เลือกแค่ data
 $name = $json->channel->name;
-$hum = $json->feeds->field1;
+$hum = $json->feeds;
 $temp = $json->feeds->field2;
 
 $d1 = date("y-m-d H:i:s");
