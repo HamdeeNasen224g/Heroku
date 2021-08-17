@@ -22,7 +22,7 @@ $d1 = date("y-m-d H:i:s");
 
 ?>
     
-<h1>Hamdee Naseng 6211273 <?php echo $name; ?></h1>
+<h1>Hamdee Naseng 6211273 <?php echo $hum; ?></h1>
 <div class="container">
     <div class="row">
 <iframe class="col-sm-7 " width=100% height=100% src="https://thingspeak.com/channels/1458412/charts/1?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&title=Humidity&type=line"></iframe>
