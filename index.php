@@ -10,7 +10,7 @@
 </head>
     <body onLoad="JavaScript:timedRefresh(3000);"><BR>
     <?php
-    //ดึง json จาก ais มา 
+    //ดึง json จาก API 
 $response = file_get_contents("https://api.thingspeak.com/channels/1458412/feeds.json?results=2", false, stream_context_create($arrContextOptions));
 $json = json_decode($response);
 //เลือกแค่ data
@@ -20,10 +20,9 @@ $temp = $json->feeds->field2;
 
 $d1 = date("y-m-d H:i:s");
 
-//echo $temp1."<br>". $temp2 ."<br>".$hum;
 ?>
     
-<h1>Hamdee Naseng 6211273 <?php echo $name; ?></h1>
+<h1>Hamdee Naseng 6211273 <?php echo $name+$hum+$temp; ?></h1>
 <div class="container">
     <div class="row">
 <iframe class="col-sm-8 embed-responsive-itemr" src="https://thingspeak.com/channels/1458412/charts/1?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&title=Humidity&type=line"></iframe>
