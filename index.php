@@ -9,7 +9,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </head>
-    <body onLoad="JavaScript:timedRefresh(300);"><BR>
+<body onload="JavaScript:timedRefresh(15000);"><BR>
     <?php
     $arrContextOptions=array(
         "ssl"=>array(
@@ -64,7 +64,12 @@ $newtime = date("d-m-Y H:i", strtotime($time));
     
   </div>
 </div>
+<script type="text/JavaScript">
+function timedRefresh(timeoutPeriod) {
+ setTimeout("location.reload(true);",timeoutPeriod);
+}
 
+</script>
 
         </body>
 </html>
