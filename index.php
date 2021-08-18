@@ -39,15 +39,15 @@ $newtime = date("d-m-Y H:i", strtotime($time));
       <h3>Dashboard</h3>
       <div class="container">
         <div class="row">
-        <iframe class="col"  src="https://thingspeak.com/channels/1458412/charts/1?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&title=Humidity&type=line"></iframe>
+        <iframe  style="width: 500px; height: 300px " src="https://thingspeak.com/channels/1458412/charts/1?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&title=Humidity&type=line"></iframe>
         </div>
     <br>
         <div class="row">
-        <iframe class="col" src="https://thingspeak.com/channels/1458412/charts/2?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&title=Temperature&type=line"></iframe>
+        <iframe style="width: 500px; height: 300px " src="https://thingspeak.com/channels/1458412/charts/2?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&title=Temperature&type=line"></iframe>
         </div>
     <br>
         <div class="row">
-        <iframe class="col" src="https://thingspeak.com/channels/1458412/maps/channel_show"></iframe>
+        <iframe style="width: 500px; height: 300px " src="https://thingspeak.com/channels/1458412/maps/channel_show"></iframe>
         </div>
     <br>
 </div>
